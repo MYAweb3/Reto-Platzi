@@ -25,7 +25,7 @@ function Estudios() {
               </Box>
               <Box>
                 <Heading size='xs' style={{ color: 'white' }} >
-                📌2019/2023 Segundaria 80%
+                📌2019/2023 Secundaria 80%
                 </Heading>
               </Box>
             </Stack>
