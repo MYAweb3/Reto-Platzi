@@ -9,7 +9,7 @@ import {
 function Estudios() {
     return (
         <div style={{ width: '300px'}}>
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-50px'}}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-50px', background: '#a2aec915', borderRadius: '15px'}}>
         <Card style={{ background: 'none' }}>
           <CardHeader>
             <Heading size='md' style={{ color: 'white' }}>💚Estudio Académico💚</Heading>

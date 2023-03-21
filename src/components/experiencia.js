@@ -12,12 +12,12 @@ function MiExperiencia() {
 
 
   return (
-    <div>
+    <div style={{ width: '700px'}}>
       {/*   <div div className='cardHijo2' style={{ textAlign: 'center' }}> */}
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-550px' }}>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-550px' ,background: '#a2aec915', borderRadius: '15px' }}>
         <Card style={{ background: 'none' }}>
           <CardHeader>
-            <Heading size='md' style={{ color: 'white', width: '250px' }}>💚 Mi experiencia 💚</Heading>
+            <Heading size='md' style={{ color: 'white' }}>💚 Mi experiencia 💚</Heading>
 
           </CardHeader>
 

@@ -59,7 +59,7 @@
 .cardHijo {
   width: 60%;
   height: auto;
-  border: 1px solid #c3c4c4;
+  border: 1px solid #65696988;
   border-radius: 12px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -95,8 +95,13 @@
 .cardHijo2 {
   width: 60%;
   height: auto;
-  border: 1px solid #c3c4c4;
+  border: 1px solid #c3c4c441;
   border-radius: 12px;
   margin-top: 10px;
   margin-bottom: 50px;
+}
+
+.efectoHover:hover {
+  color:rgb(8, 197, 8);
+  transition: color 1s;
 }

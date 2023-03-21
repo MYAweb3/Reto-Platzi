@@ -10,7 +10,7 @@ function Idiomas () {
     
     return (
         <div style={{ width: '300px'}}>
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-550px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '-50px',background: '#a2aec915', borderRadius: '15px', marginRight: '10px' }}>
           <Card style={{ background: 'none' }}>
             <CardHeader>
               <Heading size='md' style={{ color: 'white', width: '250px' }}>💚 Idiomas 💚</Heading>
