@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.menu-container {
+  float: right;
+}
+.red-text {
+  color: red;
+}
+/* styles css */
+
+.cardPadre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: #282c34;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+.cardHijo {
+  width: 60%;
+  height: auto;
+  border: 1px solid #c3c4c4;
+  border-radius: 12px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #282c34;
+  color: #c3c4c4;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  color: #c3c4c4;
+}
+/*Experiencia*/
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* agrega esta propiedad para centrar horizontalmente */
+  color: #c3c4c4;
+  margin-top: '10px';
+}
+
+
+.cardHijo2 {
+  width: 60%;
+  height: auto;
+  border: 1px solid #c3c4c4;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
